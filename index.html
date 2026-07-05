@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTSNSHOP Secure Payment</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="container">
+
+    <div class="card">
+
+        <img src="assets/logo.png" class="logo">
+
+        <h1>Secure Payment</h1>
+
+        <p class="subtitle">
+            Scan the QRPH QR Code below using any bank or e-wallet.
+        </p>
+
+        <img src="assets/qrph.png" class="qr" id="qrImage">
+
+        <input
+            type="text"
+            id="reference"
+            placeholder="Enter Reference ID">
+
+        <label class="upload">
+
+            <input type="file"
+            id="receipt"
+            accept="image/*">
+
+            Upload Payment Screenshot
+
+        </label>
+
+        <img id="preview">
+
+        <button id="submitBtn">
+
+            Continue
+
+        </button>
+
+        <a
+        id="telegram"
+        href="https://t.me/YOUR_USERNAME"
+        target="_blank">
+
+        Contact Support
+
+        </a>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
